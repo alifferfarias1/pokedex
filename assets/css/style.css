@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around; 
+}
+
+header#container {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 90vw;
+    height: 180px;
+    background-color: red;
+    overflow: hidden;
+    /* Esconde as partes curvas */
+
+    /* Cria a parte reta na parte superior */
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 90%;
+}
+
+
+#yellow {
+    box-shadow: 1px 1px 10px inset rgba(0, 0, 0, 0.5); /* Sombra escura */
+
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.759);
+    
+
+}
+
+#red {
+    box-shadow: 1px 1px 10px inset rgba(0, 0, 0, 0.5);/* Sombra escura */
+
+    width: 30px;
+    height: 30px;
+    background-color: rgb(152, 6, 6);
+    border-radius: 50%;
+    margin: 0px 10px 0px 220px;
+    border: 1px solid rgba(0, 0, 0, 0.759);
+
+    
+  
+}
+
+#blue {
+    box-shadow:1px 1px 10px inset rgba(0, 0, 0, 0.5); /* Sombra escura */
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.759)
+
+}
+
+#circle{
+    border: 9px solid white;
+    
+    box-shadow:1px 1px 6px 3px black;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to left, #07aff2 0%, #cdc7c7 70%, #f0f0f0 100%);
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+main{
+    width: 90vw;
+    height: 60vh;
+    background-color: #07aff2;
+    padding: 20px;
+
+    /* Define um raio de borda para todos os cantos */
+    border-radius: -10px 10px 10px 10px;
+    
+    /* Garante que o conteúdo dentro do elemento não seja cortado pelos cantos arredondados */
+    overflow: hidden;
+}
