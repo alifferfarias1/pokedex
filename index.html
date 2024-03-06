@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pokédex</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+    .pokedex {
+        width: 400px;
+        background-color: #ff4d4d; /* Vermelho */
+        border: 2px solid #000;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 50px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .screen {
+        height: 200px;
+        background-color: #fff;
+        border: 2px solid #000;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .controls {
+        display: flex;
+        justify-content: space-between;
+    }
+    button {
+        background-color: #990000; /* Vermelho mais escuro */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color: #660000; /* Vermelho mais escuro quando hover */
+    }
+    .pokemon {
+        width: 200px;
+        height: 200px;
+        background-image: url('https://static.poder360.com.br/2024/02/LuizInacioLulaDaSilva-Lula-26fev2024-179-848x477.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+</head>
+<body>
+
+<div class="pokedex">
+    <div class="screen">
+        <div class="pokemon"></div>
+    </div>
+    <div class="controls">
+        <button>Previous</button>
+        <button>Next</button>
+    </div>
+</div>
+
+</body>
+</html>

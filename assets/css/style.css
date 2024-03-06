@@ -4,27 +4,21 @@
     box-sizing: border-box;
 }
 
-.container {
-    display: flex;
-    height: 100vh;
-    justify-content: space-around; 
-}
+
 
 header#container {
     display: flex;
     padding: 10px;
-    margin: 10px;
-    width: 90vw;
+    margin: 7px 0px 0px 10px;
+    width: 50vw;
     height: 180px;
-    background-color: red;
+    background-color: rgba(249, 37, 37, 0.925);
     overflow: hidden;
-    /* Esconde as partes curvas */
-
-    /* Cria a parte reta na parte superior */
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 90%;
+    border: 1px solid black;
+     /* Define a forma linear e o ponto de subida */
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.584);
+    
 }
-
 
 #yellow {
     box-shadow: 1px 1px 10px inset rgba(0, 0, 0, 0.5); /* Sombra escura */
@@ -46,7 +40,7 @@ header#container {
     height: 30px;
     background-color: rgb(152, 6, 6);
     border-radius: 50%;
-    margin: 0px 10px 0px 220px;
+    margin: 0px 10px 0px 130px;
     border: 1px solid rgba(0, 0, 0, 0.759);
 
     
@@ -75,15 +69,38 @@ header#container {
     margin-left: 30px;
 }
 
-main{
-    width: 90vw;
-    height: 60vh;
-    background-color: #07aff2;
-    padding: 20px;
-
-    /* Define um raio de borda para todos os cantos */
-    border-radius: -10px 10px 10px 10px;
-    
-    /* Garante que o conteúdo dentro do elemento não seja cortado pelos cantos arredondados */
+#mid{
+    display: flex;
+    margin: 0px 0px 0px 10px;
+    padding: 10px;
+    width: 50vw;
+    height: 70vh;
+    background-color: rgba(249, 37, 37, 0.925);
     overflow: hidden;
+    border: 1px solid black;
+     /* Define a forma linear e o ponto de subida */
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.584);
+   
+}
+
+#contorno{
+    display: flex;
+    width: 50vw;
+    height: 67vh;
+    border: 2px solid rgba(0, 0, 0, 0.638);
+}
+
+#blacksquare{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10vw;
+    height: 27vh;
+    background-color: black;
+
+}
+
+.bolinha{
+
 }
